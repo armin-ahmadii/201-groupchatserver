@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-    - cron: '0 9 24 11 *' # UTC 9AM Nov 14, PDT 2AM
-    - cron: '0 9 27 11 *' # UTC 9AM Nov 27, PDT 2AM
+    - cron: '0 9 28 3 *' # 9am 28 Mar UTC = 2AM PT; standard ddl
+    - cron: '0 9 31 3 *' # 9am 31 Mar UTC = 2AM PT; standard ddl
 jobs:
   run-autograding-tests:
     runs-on: self-hosted
