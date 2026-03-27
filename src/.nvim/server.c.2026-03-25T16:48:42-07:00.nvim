@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+#define MAX_MSG_SIZE 1024
+
+int main(int argc, char *argv[]) {
+  if (argc != 3) {
+    fprintf(stderr, "Usage: %s <port> <# of clients>\n", argv[0]);
+  }
+}
