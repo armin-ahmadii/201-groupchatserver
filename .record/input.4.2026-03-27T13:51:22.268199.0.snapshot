@@ -1,0 +1,11 @@
+{"version": 2, "width": 119, "height": 59, "timestamp": 1774644682, "idle_time_limit": 5.0, "env": {"SHELL": "/usr/bin/zsh", "TERM": "xterm-256color"}}
+[0.053303, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                      \r \r"]
+[0.053736, "o", "\u001b]2;cmpt201@e9936728f0e5:~/units/04-long-assignments/a11-armin-ahmadii\u0007\u001b]1;..armin-ahmadii\u0007"]
+[0.054421, "o", "\u001b]7;file://e9936728f0e5/home/cmpt201/units/04-long-assignments/a11-armin-ahmadii\u001b\\"]
+[0.061487, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m[recording] \u001b[34m~/units/04-long-assignments/a11-armin-ahmadii\u001b[32m❯\u001b[39m \u001b[K\u001b[?1h\u001b=\u001b[?2004h"]
+[0.603475, "i", "n"]
+[0.607636, "o", "n"]
+[0.611403, "o", "\b\u001b[1m\u001b[31mn\u001b[0m\u001b[39m"]
+[0.611694, "o", "\b\u001b[1m\u001b[31mn\u001b[0m\u001b[39m\u001b[92mvim log.txt\u001b[39m\u001b[11D"]
+[0.692745, "i", "v"]
+[0.694003, "o", "\b\u001b[1m\u001b[31mn\u001b[1m\u001b[31mv\u001b[0m\u001b[39m"]

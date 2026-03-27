@@ -1,0 +1,1206 @@
+[INFO] Test 6 (many clients sending type 1 message and receiving it back)
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] Connecting to 127.0.0.1:8000
+
+[DEBUG] New client 56 forked, sleeping for 2 seconds
+
+[DEBUG] New client 1 forked, sleeping for 2 seconds
+
+[DEBUG] New client 2 forked, sleeping for 2 seconds
+
+[DEBUG] New client 29 forked, sleeping for 2 seconds
+
+[DEBUG] New client 6 forked, sleeping for 2 seconds
+
+[DEBUG] New client 21 forked, sleeping for 2 seconds
+
+[DEBUG] New client 3 forked, sleeping for 2 seconds
+
+[DEBUG] New client 65 forked, sleeping for 2 seconds
+
+[DEBUG] New client 18 forked, sleeping for 2 seconds
+
+[DEBUG] New client 58 forked, sleeping for 2 seconds
+
+[DEBUG] New client 12 forked, sleeping for 2 seconds
+
+[DEBUG] New client 73 forked, sleeping for 2 seconds
+
+[DEBUG] New client 32 forked, sleeping for 2 seconds
+
+[DEBUG] New client 0 forked, sleeping for 2 seconds
+
+[DEBUG] New client 24 forked, sleeping for 2 seconds
+
+[DEBUG] New client 7 forked, sleeping for 2 seconds
+
+[DEBUG] New client 36 forked, sleeping for 2 seconds
+
+[DEBUG] New client 15 forked, sleeping for 2 seconds
+
+[DEBUG] New client 81 forked, sleeping for 2 seconds
+
+[DEBUG] New client 33 forked, sleeping for 2 seconds
+
+[DEBUG] New client 87 forked, sleeping for 2 seconds
+
+[DEBUG] New client 39 forked, sleeping for 2 seconds
+
+[DEBUG] New client 11 forked, sleeping for 2 seconds
+
+[DEBUG] New client 26 forked, sleeping for 2 seconds
+
+[DEBUG] New client 37 forked, sleeping for 2 seconds
+
+[DEBUG] New client 92 forked, sleeping for 2 seconds
+
+[DEBUG] New client 44 forked, sleeping for 2 seconds
+
+[DEBUG] New client 41 forked, sleeping for 2 seconds
+
+[DEBUG] New client 17 forked, sleeping for 2 seconds
+
+[DEBUG] New client 30 forked, sleeping for 2 seconds
+
+[DEBUG] New client 4 forked, sleeping for 2 seconds
+
+[DEBUG] New client 9 forked, sleeping for 2 seconds
+
+[DEBUG] New client 52 forked, sleeping for 2 seconds
+
+[DEBUG] New client 50 forked, sleeping for 2 seconds
+
+[DEBUG] New client 48 forked, sleeping for 2 seconds
+
+[DEBUG] New client 10 forked, sleeping for 2 seconds
+
+[DEBUG] New client 22 forked, sleeping for 2 seconds
+
+[DEBUG] New client 43 forked, sleeping for 2 seconds
+
+[DEBUG] New client 20 forked, sleeping for 2 seconds
+
+[DEBUG] New client 55 forked, sleeping for 2 seconds
+
+[DEBUG] New client 47 forked, sleeping for 2 seconds
+
+[DEBUG] New client 53 forked, sleeping for 2 seconds
+
+[DEBUG] New client 8 forked, sleeping for 2 seconds
+
+[DEBUG] New client 28 forked, sleeping for 2 seconds
+
+[DEBUG] New client 51 forked, sleeping for 2 seconds
+
+[DEBUG] New client 60 forked, sleeping for 2 seconds
+
+[DEBUG] New client 31 forked, sleeping for 2 seconds
+
+[DEBUG] New client 63 forked, sleeping for 2 seconds
+
+[DEBUG] New client 13 forked, sleeping for 2 seconds
+
+[DEBUG] New client 35 forked, sleeping for 2 seconds
+
+[DEBUG] New client 68 forked, sleeping for 2 seconds
+
+[DEBUG] New client 64 forked, sleeping for 2 seconds
+
+[DEBUG] New client 66 forked, sleeping for 2 seconds
+
+[DEBUG] New client 34 forked, sleeping for 2 seconds
+
+[DEBUG] New client 70 forked, sleeping for 2 seconds
+
+[DEBUG] New client 19 forked, sleeping for 2 seconds
+
+[DEBUG] New client 40 forked, sleeping for 2 seconds
+
+[DEBUG] New client 69 forked, sleeping for 2 seconds
+
+[DEBUG] New client 71 forked, sleeping for 2 seconds
+
+[DEBUG] New client 74 forked, sleeping for 2 seconds
+
+[DEBUG] New client 75 forked, sleeping for 2 seconds
+
+[DEBUG] New client 45 forked, sleeping for 2 seconds
+
+[DEBUG] New client 78 forked, sleeping for 2 seconds
+
+[DEBUG] New client 46 forked, sleeping for 2 seconds
+
+[DEBUG] New client 16 forked, sleeping for 2 seconds
+
+[DEBUG] New client 76 forked, sleeping for 2 seconds
+
+[DEBUG] New client 79 forked, sleeping for 2 seconds
+
+[DEBUG] New client 83 forked, sleeping for 2 seconds
+
+[DEBUG] New client 80 forked, sleeping for 2 seconds
+
+[DEBUG] New client 82 forked, sleeping for 2 seconds
+
+[DEBUG] New client 57 forked, sleeping for 2 seconds
+
+[DEBUG] New client 25 forked, sleeping for 2 seconds
+
+[DEBUG] New client 54 forked, sleeping for 2 seconds
+
+[DEBUG] New client 89 forked, sleeping for 2 seconds
+
+[DEBUG] New client 85 forked, sleeping for 2 seconds
+
+[DEBUG] New client 86 forked, sleeping for 2 seconds
+
+[DEBUG] New client 88 forked, sleeping for 2 seconds
+
+[DEBUG] New client 97 forked, sleeping for 2 seconds
+
+[DEBUG] New client 23 forked, sleeping for 2 seconds
+
+[DEBUG] New client 93 forked, sleeping for 2 seconds
+
+[DEBUG] New client 38 forked, sleeping for 2 seconds
+
+[DEBUG] New client 61 forked, sleeping for 2 seconds
+
+[DEBUG] New client 91 forked, sleeping for 2 seconds
+
+[DEBUG] New client 42 forked, sleeping for 2 seconds
+
+[DEBUG] New client 95 forked, sleeping for 2 seconds
+
+[DEBUG] New client 49 forked, sleeping for 2 seconds
+
+[DEBUG] New client 96 forked, sleeping for 2 seconds
+
+[DEBUG] New client 62 forked, sleeping for 2 seconds
+
+[DEBUG] New client 5 forked, sleeping for 2 seconds
+
+[DEBUG] New client 59 forked, sleeping for 2 seconds
+
+[DEBUG] New client 67 forked, sleeping for 2 seconds
+
+[DEBUG] New client 14 forked, sleeping for 2 seconds
+
+[DEBUG] New client 99 forked, sleeping for 2 seconds
+
+[DEBUG] New client 72 forked, sleeping for 2 seconds
+
+[DEBUG] New client 27 forked, sleeping for 2 seconds
+
+[DEBUG] New client 98 forked, sleeping for 2 seconds
+
+[DEBUG] New client 77 forked, sleeping for 2 seconds
+
+[DEBUG] New client 84 forked, sleeping for 2 seconds
+
+[DEBUG] New client 90 forked, sleeping for 2 seconds
+
+[DEBUG] New client 94 forked, sleeping for 2 seconds
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[DEBUG] Sending a type 1 msg
+
+[DEBUG] Expecting type 1 message
+
+[DEBUG] Received a type 1 msg
+
+[DEBUG] Server closed socket
+
+[DEBUG] Preparing to terminate; may take time
+
+[INFO] Test 6 failed
+

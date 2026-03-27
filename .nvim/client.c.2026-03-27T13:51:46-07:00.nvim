@@ -1,0 +1,141 @@
+#define _DEFAULT_SOURCE
+#include <arpa/inet.h>
+#include <pthread.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
+
+#define MAX_MSG_SIZE 1024
+#define RANDOM_BYTES 10
+
+int convert(uint8_t *buf, ssize_t buf_size, char *str, ssize_t str_size) {
+  if (buf == NULL || str == NULL || buf_size <= 0 ||
+      str_size < (buf_size * 2 + 1)) {
+    return -1;
+  }
+  for (int i = 0; i < buf_size; i++) {
+    sprintf(str + i * 2, "%02X", buf[i]);
+  }
+  str[buf_size * 2] = '\0';
+  return 0;
+}
+
+typedef struct receiver_args_t {
+  int sock;
+  char *log_path;
+} receiver_args_t;
+
+void *receiver_thread(void *arg) {
+  receiver_args_t *args = (receiver_args_t *)arg;
+  int sock = args->sock;
+  char *log_path = args->log_path;
+  free(args);
+
+  FILE *log_file = fopen(log_path, "w");
+  if (!log_file) {
+    perror("fopen");
+    return NULL;
+  }
+
+  while (1) {
+    uint8_t type;
+    if (recv(sock, &type, 1, 0) <= 0)
+      break;
+    if (type == 1) {
+      uint8_t newline;
+      recv(sock, &newline, 1, 0);
+      break;
+    }
+
+    uint32_t ip_raw;
+    if (recv(sock, &ip_raw, sizeof(ip_raw), MSG_WAITALL) <= 0)
+      break;
+    uint16_t port_raw;
+    if (recv(sock, &port_raw, sizeof(port_raw), MSG_WAITALL) <= 0)
+      break;
+
+    char msg[MAX_MSG_SIZE];
+    int idx = 0;
+    while (idx < MAX_MSG_SIZE - 1) {
+      uint8_t byte;
+      if (recv(sock, &byte, 1, 0) <= 0)
+        goto done;
+      if (byte == '\n')
+        break;
+      msg[idx++] = byte;
+    }
+    msg[idx] = '\0';
+
+    struct in_addr ip_addr;
+    ip_addr.s_addr = ip_raw;
+    char ip_str[INET_ADDRSTRLEN];
+    inet_ntop(AF_INET, &ip_addr, ip_str, INET_ADDRSTRLEN);
+    uint16_t port = ntohs(port_raw);
+    printf("%-15s%-10u%s\n", ip_str, port, msg);
+    fprintf(log_file, "%-15s%-10u%s\n", ip_str, port, msg);
+  }
+done:
+  fflush(log_file);
+  fclose(log_file);
+  return NULL;
+}
+
+int main(int argc, char *argv[]) {
+  if (argc != 5) {
+    fprintf(stderr, "Usage %s <IP> <port> <# of message> <log file>\n",
+            argv[0]);
+    exit(EXIT_FAILURE);
+  }
+
+  int port = atoi(argv[2]);
+  int sock = socket(AF_INET, SOCK_STREAM, 0);
+  if (sock < 0) {
+    perror("Socket error");
+    exit(EXIT_FAILURE);
+  }
+
+  struct sockaddr_in server_addr;
+  memset(&server_addr, 0, sizeof(server_addr));
+  server_addr.sin_family = AF_INET;
+  server_addr.sin_port = htons(port);
+  inet_pton(AF_INET, argv[1], &server_addr.sin_addr);
+
+  if (connect(sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+    perror("connect");
+    exit(EXIT_FAILURE);
+  }
+
+  receiver_args_t *args = malloc(sizeof(receiver_args_t));
+  args->sock = sock;
+  args->log_path = argv[4];
+
+  pthread_t recv_thread;
+  pthread_create(&recv_thread, NULL, receiver_thread, args);
+
+  printf("Connected to server!\n");
+  int num_messages = atoi(argv[3]);
+
+  for (int i = 0; i < num_messages; i++) {
+    uint8_t random_bytes[10];
+    char hex_str[21];
+    getentropy(random_bytes, sizeof(random_bytes));
+    convert(random_bytes, sizeof(random_bytes), hex_str, sizeof(hex_str));
+
+    uint8_t msg[MAX_MSG_SIZE];
+    int len = 0;
+    msg[len++] = 0;
+    memcpy(msg + len, hex_str, 20);
+    len += 20;
+    msg[len++] = '\n';
+
+    send(sock, msg, len, 0);
+  }
+  uint8_t end_msg[2] = {1, '\n'};
+  send(sock, end_msg, sizeof(end_msg), 0);
+  pthread_join(recv_thread, NULL);
+  close(sock);
+  return 0;
+}

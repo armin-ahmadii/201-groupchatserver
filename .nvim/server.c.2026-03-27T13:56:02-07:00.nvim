@@ -134,8 +134,7 @@ void *client_thread(void *arg) {
     } else if (type == 1) {
       pthread_mutex_lock(&lock);
       done_count++;
-      int all_done =
-          (done_count == num_clients) && (num_connected == num_clients);
+      int all_done = (done_count == num_clients);
       pthread_mutex_unlock(&lock);
 
       if (all_done) {
@@ -143,10 +142,10 @@ void *client_thread(void *arg) {
         pthread_mutex_lock(&lock);
         for (int i = 0; i < num_connected; i++) {
           send(client_fds[i], end_msg, sizeof(end_msg), 0);
-          shutdown(client_fds[i], SHUT_WR);
+          shutdown(client_fds[i], SHUT_RDWR);
+          close(client_fds[i]);
         }
         pthread_mutex_unlock(&lock);
-        sleep(2);
         exit(0);
       }
 
