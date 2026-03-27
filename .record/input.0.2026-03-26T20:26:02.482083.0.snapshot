@@ -1,0 +1,11 @@
+{"version": 2, "width": 179, "height": 81, "timestamp": 1774581962, "idle_time_limit": 5.0, "env": {"SHELL": "/usr/bin/zsh", "TERM": "xterm-256color"}}
+[0.061261, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                  \r \r"]
+[0.061681, "o", "\u001b]2;cmpt201@e9936728f0e5:~/units/04-long-assignments/a11-armin-ahmadii\u0007\u001b]1;..armin-ahmadii\u0007"]
+[0.062609, "o", "\u001b]7;file://e9936728f0e5/home/cmpt201/units/04-long-assignments/a11-armin-ahmadii\u001b\\"]
+[0.070176, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[35m[recording] \u001b[34m~/units/04-long-assignments/a11-armin-ahmadii\u001b[32m❯\u001b[39m \u001b[K"]
+[0.0702, "o", "\u001b[?1h\u001b="]
+[0.070218, "o", "\u001b[?2004h"]
+[2.133586, "i", "n"]
+[2.136952, "o", "n"]
+[2.141392, "o", "\b\u001b[1m\u001b[31mn\u001b[0m\u001b[39m"]
+[2.141539, "o", "\b\u001b[1m\u001b[31mn\u001b[0m\u001b[39m\u001b[92mvim src/client.c\u001b[39m\u001b[16D"]

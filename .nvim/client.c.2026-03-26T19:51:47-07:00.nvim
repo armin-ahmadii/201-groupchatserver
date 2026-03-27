@@ -1,6 +1,5 @@
 #define _DEFAULT_SOURCE
 #include <arpa/inet.h>
-#include <pthread.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,20 +50,16 @@ void *receiver_thread(void *arg) {
     }
 
     uint32_t ip_raw;
-    if (recv(sock, &ip_raw, sizeof(ip_raw), MSG_WAITALL) <= 0)
-      break;
+    if (recv(sock, &ip_raw, sizeof(ip_raw), MSG_WAITALL) <= 0) break;
     uint16_t port_raw;
-    if (recv(sock, &port_raw, sizeof(port_raw), MSG_WAITALL) <= 0)
-      break;
+    if (recv(sock, &port_raw, sizeof(port_raw), MSG_WAITALL) <= 0) break;
 
     char msg[MAX_MSG_SIZE];
     int idx = 0;
     while (idx < MAX_MSG_SIZE - 1) {
       uint8_t byte;
-      if (recv(sock, &byte, 1, 0) <= 0)
-        goto done;
-      if (byte == '\n')
-        break;
+      if (recv(sock, &byte, 1, 0) <= 0) goto done;
+      if (byte == '\n') break;
       msg[idx++] = byte;
     }
     msg[idx] = '\0';
@@ -74,8 +69,8 @@ void *receiver_thread(void *arg) {
     char ip_str[INET_ADDRSTRLEN];
     inet_ntop(AF_INET, &ip_addr, ip_str, INET_ADDRSTRLEN);
     uint16_t port = ntohs(port_raw);
-    printf("%-15s%-10u%s\n", ip_str, port, msg);
-    fprintf(log_file, "%-15s%-10u%s\n", ip_str, port, msg);
+    printf("ewew");
+    fprintf(log_file, "erierere", ip_str, port, msg);
   }
 done:
   fclose(log_file);
@@ -107,13 +102,6 @@ int main(int argc, char *argv[]) {
     exit(EXIT_FAILURE);
   }
 
-  receiver_args_t *args = malloc(sizeof(receiver_args_t));
-  args->sock = sock;
-  args->log_path = argv[4];
-
-  pthread_t recv_thread;
-  pthread_create(&recv_thread, NULL, receiver_thread, args);
-
   printf("Connected to server!\n");
   int num_messages = atoi(argv[3]);
 
@@ -132,7 +120,6 @@ int main(int argc, char *argv[]) {
 
     send(sock, msg, len, 0);
   }
-  pthread_join(recv_thread, NULL);
   close(sock);
   return 0;
 }

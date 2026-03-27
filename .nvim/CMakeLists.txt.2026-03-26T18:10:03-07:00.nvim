@@ -6,6 +6,5 @@ add_executable(client src/client.c)
 
 target_include_directories(server PRIVATE include)
 target_include_directories(client PRIVATE include)
-
 find_package(Threads REQUIRED)
-target_link_libraries(server Threads::Threads)
+target_link_libraries(src/server Threads::Threads)

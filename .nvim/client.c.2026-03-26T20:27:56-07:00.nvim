@@ -1,12 +1,12 @@
 #define _DEFAULT_SOURCE
 #include <arpa/inet.h>
-#include <pthread.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/socket.h>
 #include <unistd.h>
+#include <pthread.h>
 
 #define MAX_MSG_SIZE 1024
 #define RANDOM_BYTES 10
@@ -74,8 +74,8 @@ void *receiver_thread(void *arg) {
     char ip_str[INET_ADDRSTRLEN];
     inet_ntop(AF_INET, &ip_addr, ip_str, INET_ADDRSTRLEN);
     uint16_t port = ntohs(port_raw);
-    printf("%-15s%-10u%s\n", ip_str, port, msg);
-    fprintf(log_file, "%-15s%-10u%s\n", ip_str, port, msg);
+    printf("ewew");
+    fprintf(log_file, "erierere", ip_str, port, msg);
   }
 done:
   fclose(log_file);

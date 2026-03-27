@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.20)
 project(GroupChatServer)
 
+find_package(Threads REQUIRED)
+target_link_libraries(src/server Threads::Threads)
+
 add_executable(server src/server.c)
 add_executable(client src/client.c)
 
 target_include_directories(server PRIVATE include)
 target_include_directories(client PRIVATE include)
-
-find_package(Threads REQUIRED)
-target_link_libraries(server Threads::Threads)

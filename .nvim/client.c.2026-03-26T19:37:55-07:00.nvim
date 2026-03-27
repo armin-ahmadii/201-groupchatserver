@@ -1,0 +1,64 @@
+#include <arpa/inet.h>
+#define _DEFAULT_SOURCE
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#include <stdint.h>
+#include <sys/socket.h>
+
+#define MAX_MSG_SIZE 1024
+#define RANDOM_BYTES 10
+
+int convert(uint8_t *buf, ssize_t buf_size, char *str, ssize_t str_size){
+    return 0;
+}
+
+
+int main(int argc, char *argv[]) {
+  if (argc != 5) {
+    fprintf(stderr, "Usage %s <IP> <port> <# of message> <log file>\n",
+            argv[0]);
+    exit(EXIT_FAILURE);
+  }
+
+  int port = atoi(argv[2]);
+  int sock = socket(AF_INET, SOCK_STREAM, 0);
+  if (sock < 0) {
+    perror("Socket error");
+    exit(EXIT_FAILURE);
+  }
+
+  struct sockaddr_in server_addr;
+  memset(&server_addr, 0, sizeof(server_addr));
+  server_addr.sin_family = AF_INET;
+  server_addr.sin_port = htons(port);
+  inet_pton(AF_INET, argv[1], &server_addr.sin_addr);
+
+  if (connect(sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+    perror("connect");
+    exit(EXIT_FAILURE);
+  }
+
+  printf("Connected to server!\n");
+  int num_messages = atoi(argv[3]);
+
+  for (int i = 0; i < num_messages; i++){
+    uint8_t random_bytes[10];
+    char hex_str[21];
+    getentropy(random_bytes, sizeof(random_bytes));
+    convert(random_bytes, sizeof(random_bytes), hex_str, sizeof(hex_str));
+
+    uint8_t msg[MAX_MSG_SIZE];
+    int len = 0;
+    msg[len++] = 0;
+    memcpy(msg + len, hex_str, 20);
+    len += 20;
+    msg[len++] = '\n';
+
+    send(sock, msg, len, 0);
+  }
+  close(sock);
+  return 0;
+}
