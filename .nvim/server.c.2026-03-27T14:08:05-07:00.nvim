@@ -139,6 +139,11 @@ void *client_thread(void *arg) {
       pthread_mutex_unlock(&lock);
 
       if (all_done) {
+        pthread_mutex_lock(&lock);
+        while (queue.head != NULL) {
+          pthread_cond_wait(&cond, &lock);
+        }
+
         uint8_t end_msg[2] = {1, '\n'};
         for (int i = 0; i < num_connected; i++) {
           send(client_fds[i], end_msg, sizeof(end_msg), 0);
@@ -148,7 +153,8 @@ void *client_thread(void *arg) {
         sleep(2);
         exit(0);
       }
-      pthread_mutex_unlock(&lock);
+
+      close(fd);
       return NULL;
     }
   }
